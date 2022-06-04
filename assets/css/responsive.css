@@ -1,0 +1,69 @@
+@media(max-width:992px){
+    html{
+        font-size: 55%;
+    }
+    .navbar .container ul li a{
+        padding-left: 5rem;
+    }
+
+}
+
+@media(max-width:768px){
+    html{
+        font-size: 45%;
+    }
+    .port_part .container .port_con_main{
+        padding-left: 17.0rem;
+        padding-right: 17.0rem;
+    }
+    .port_con_main .img_top{
+        margin-top: 1.5rem;
+    }
+   
+}
+
+@media(max-width:586px){
+    html{
+        font-size: 35%;
+    }
+    .footer_con .footer_icon{
+        margin-right: 5rem;
+    }
+    .footer_con .copyright p{
+        margin-left: 5rem;
+    }
+    .navber{
+        height: 7rem;
+    }
+    .port_part .container .port_con_main{
+        padding-left: 15.0rem;
+        padding-right: 15.0rem;
+    }
+    .user_details .input_box input{
+        width: 50rem;
+    }
+    .user_details .input_box textarea{
+        width: 50rem;
+    }
+    .navber{
+        height: 8rem;
+    }
+}
+@media(max-width:300px){
+    html{
+        font-size: 25%;
+    }
+    .footer_con .footer_icon{
+        margin-right: 5rem;
+    }
+    .port_part .container .port_con_main{
+        padding-left: 10.0rem;
+        padding-right: 10.0rem;
+    }
+    .user_details .input_box input{
+        width: 50rem;
+    }
+    .user_details .input_box textarea{
+        width: 50rem;
+    }
+}

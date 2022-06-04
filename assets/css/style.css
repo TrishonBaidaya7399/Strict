@@ -1,0 +1,374 @@
+/* Author: Trishon Baidaya Shontu*/
+/* Version: 1.65.2 */
+/* Usability: Bootstrap 5.1.3 
+              Goole Fonts
+              Font Awesome
+              Webfonts
+              Own CSS file
+              https://imgbb.com/ (for online image link creation)
+               */ 
+
+            *{
+                margin: 0;
+                padding: 0;
+                font-family:'Times New Roman', Times, serif;
+            }
+            ul, ol{
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                }
+            a, a:hover{
+                text-decoration: none;
+                color: black;
+            }
+            img{
+                vertical-align: middle;
+                
+            } 
+            body{
+                overflow-x: hidden;
+            }
+            /* COMMON CSS */
+             
+            /* Root file */
+            :root{
+                --primary: #0771b9;
+                --secondary: #5bc5f4;
+                --content_bg: #f1f1f1;
+                --footer_bg: #353535;
+                --copyright_bg: #555555;
+            }
+            h1, h2, h3, h4, h5, h6{
+                font-family: 'Roboto', sans-serif; 
+                margin: 0;
+                padding: 0;
+            }
+           
+            p{
+                font-family: 'Roboto', sans-serif;
+                margin: 0;
+                padding: 0;
+                line-height: 1.9;
+                font-size:large;
+            }
+            .container{
+                max-width: 95%;
+            }
+            .text-justify{
+                text-align: justify;
+            }
+            body
+            {
+            overflow-x:hidden;
+            }
+            
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');            
+
+/* Common CSS */
+html{
+    font-size: 62.5%;
+}
+body
+{
+overflow-x:hidden;
+}
+/* Navbar start */
+.navbar .container{
+    max-width: 80%;
+}
+.navbar{
+    background-color: #f9f9f9;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    height: 8.0rem;
+    width: 100%;
+    position: fixed;
+    top: 0;  
+    z-index: 1;
+    
+}
+
+.navbar ul li a{
+    background-size: cover;
+    background: #f9f9f9;
+    display: flex;
+    justify-content: star;
+    align-items: center;
+    
+}
+.nav-link{
+    font-size: 2.0rem;
+}
+.front_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.navbar ul li{
+    padding-left: 2rem;
+}
+.navbar ul{
+    font-size: 2.0rem;
+   
+}
+.navbar-brand{
+    font-size: 2.5rem; 
+    font-weight: 600;  
+}
+.navbar{
+    box-shadow: .2rem .2rem .5rem .3rem rgba(0, 0, 0, 0.2);
+}
+.navbar-toggler{
+    font-size: 2rem;
+}
+
+/* Navbar end */
+
+/* Hero part start */
+
+.hero_part{
+    background: url(../img/hero_img.jpg);
+    background-size:cover;
+    background-position: top;
+    height: 80.0rem;
+    width: 100%;  
+}
+.hero_con{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 22.0rem;
+}
+.hero_con h1{
+font-size: 12.0rem;
+}
+.hero_btn .btn{
+    color: #f1f1f1;
+    padding: 1.0rem;
+    background-color: transparent;
+    border-radius: .2rem;
+    border-width: .2rem;
+    border-color: #15a4fa;
+    
+}
+.hero_con i {
+    font-size: 3.0rem;
+}
+/* Hero part end */
+
+
+/* Typo part start */
+
+
+.typo_part{
+    
+    /* background-color: #f6f9f9; */
+}
+.typo_part .container{
+    background-color: #f6f9f9;
+    max-width: 100%;
+}
+
+.typo_part h1{
+    padding-top: 8.5rem;
+    font-size: 4.0rem;
+    color: #2d3950;
+    font-family: 'Roboto', sans-serif;
+}
+.typo_con_main .paragraph{
+    color: #999999; 
+    margin: 3.8rem 3.0rem 10.0rem 3.0rem; 
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    padding-bottom: 11.0rem;
+}
+
+/* Typo part end */
+
+
+/* Features part start */
+.features_part .container{
+    margin-bottom: 4.7rem;
+}
+.features_con .row img{
+    padding-top: 2.0rem;
+}
+.features_con .row h4{
+    padding-top: 3.2rem;
+    padding-bottom: 2.2rem;
+    font-family: 'Roboto', sans-serif;
+    color: #2d3950;
+}
+.features_con .row  p {
+color: #999999; 
+font-family: 'Roboto', sans-serif;
+font-size:medium;
+}
+/* Features part end */
+
+/* Portfolio part start */
+.port_part .container{
+    background-color: #f6f9f9;
+    max-width: 100%;  
+}
+.port_part .container .port_con_main{
+    background-color: #f6f9f9;
+    max-width: 100%;
+    padding-bottom: 10.0rem;
+    padding-left: 20.0rem;
+    padding-right: 20.0rem;
+}
+.port_part .container .port_head{
+    display: block;
+    justify-content: center;
+}
+.port_part .port_head h1{
+    color: #2d3950;
+    padding-top: 7.0rem;
+    padding-bottom: 2.0rem;
+}
+.port_part .port_head p{
+    font-size: 1.5rem;
+    color: #999999; 
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 5.0rem;
+}
+.port_con_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.port_con{
+    position: relative;
+}
+.port_overlay{
+    height: 0%;
+    width: 100%;
+    background: rgba(44,172,247,0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.4s;
+    
+}
+.port_overlay a{
+    height: 4.0rem;
+    width: 4.0rem;
+    border-radius: .2rem;
+    background: transparent;
+    border: .2rem solid #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f1f1f1;
+    margin-right: 1.0rem;
+    
+}
+.port_con:hover .port_overlay{
+    opacity: 1;
+    height: 100%;
+    
+}
+
+/* Portfolio part end */
+
+
+/* <!-- Message box part start --> */
+.msg_box_part .container{
+    background:url(../img/stay_with_us_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 70.0rem;
+    
+}
+.msg_con_main h1{
+    color: #f1f1f1;
+    padding-top: -4.0rem;
+    padding-bottom: 2.0rem;
+}
+.msg_con_main p{
+    color: #999999;
+    font-size: 1.5rem;
+    padding-bottom: 5.0rem;
+}
+.msg_box_part .container img{
+    height: 70.2rem;
+}
+.user_details .input_box input{
+    height: 6.5rem;
+    background-color: transparent;
+    border: .2rem solid #999999;
+    border-radius: .2rem;
+    margin-bottom: 2.0rem;
+    color:#dfdddd;
+    font-weight: 1000;
+    width: 80.0rem;
+}
+.user_details .input_box textarea{
+    padding-top: 1.0rem;
+    background-color: transparent;
+    border: .2rem solid #999999;
+    border-radius: .2rem;
+    color: #999999;
+    width: 80.0rem;
+    font-weight: 1000;
+}
+.check_box input{
+    background-color: #999999;
+    margin-top: 3.5rem;
+}
+label{
+    color: #f1f1f1;
+    margin-top: 3.5rem;
+}
+.user_details .button{
+width: 14.5rem;
+height: 4.5rem;
+background-color: transparent;
+border: .2rem solid #15a4fa;
+border-radius: .2rem;
+margin-top: 3.5rem;
+
+}
+.user_details .button input{
+    background:none;
+    color: #f1f1f1;
+    font-size: 2.5rem;
+    border: 0 solid transparent;   
+}
+/* <!-- Message box part end --> */
+
+.footer_con{
+    display: flex;
+    justify-content:space-between; 
+    align-items: center;
+       
+}
+.footer_con .copyright p{
+    font-size: 1.5rem;
+    color: #999999;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    margin-left: 22.5rem;
+    
+}
+.footer_con .footer_icon a{
+    width: 4.0rem;
+    height: 4.0rem;
+    border: .2rem solid #15a4fa;
+    background: #15a4fa;
+    color: #f1f1f1;
+    padding: 1.0rem;
+}
+.footer_con .footer_icon{
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    margin-right: 22.5rem;
+}
